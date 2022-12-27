@@ -1,0 +1,5 @@
+docker-compose up -d
+sleep 5
+docker cp python/Genshi-0.7.7/genshi/ vertical-olive-mill_web_1://usr/lib/python2.7/dist-packages/
+docker cp python/py3o.template-0.10.0/py3o vertical-olive-mill_web_1://usr/lib/python2.7/dist-packages/
+# docker cp python/formats-0.1.1/formats vertical-olive-mill_web_1://usr/lib/python2.7/dist-packages/
